@@ -1,0 +1,109 @@
+.main1{
+    margin-top: 11%;   
+    height: 67.8vh; 
+}
+
+.lowericons{
+  width:20%;
+   bottom:0px;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10%;
+}
+
+
+/* about */
+.buttondiv{
+  width: 60%;
+  text-align: center;
+}
+.progressbar{
+  height: 12px;
+  font-size: x-small;
+  font-weight: bold;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  /* padding: 8px 22px; */
+  width: 65%;
+  height: 110%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #292929;
+}
+
+.button5:hover {
+  background-color: #0f0e0e;
+  color: white;
+}
+.button {
+  /* background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 8px 22px; */
+  width: 65%;
+  height: 110%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: black;
+  color: white;
+  border: 2px solid #292929;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
