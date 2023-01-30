@@ -23,19 +23,14 @@
   font-weight: bold;
 }
 .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  /* padding: 8px 22px; */
   width: 65%;
   height: 110%;
   text-align: center;
-  text-decoration: none;
+  /* text-decoration: none; */
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   transition-duration: 1s;
-  cursor: pointer;
 }
 .button5 {
   background-color: white;
@@ -47,21 +42,7 @@
   background-color: #0f0e0e;
   color: white;
 }
-.button {
-  /* background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 8px 22px; */
-  width: 65%;
-  height: 110%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 1s;
-  cursor: pointer;
-}
+
 .button1 {
   background-color: black;
   color: white;
@@ -72,6 +53,46 @@
   background-color: white;
   color: black;
 }
+/* Resume */
+.toptext{
+  text-align: center;
+  width: 40%;
+}
+.uperdiv{
+  display: flex;
+  justify-content: center;
+}
+.first{
+  border: solid red;
+}
+.second{
+  border: solid red;
+}
+.educationdiv{
+  width: 70%;
+}
+/* Contact */
+.submitbtn{
+  width: 50%;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+}
+.submitbtn:hover{
+  background-color: white;
+  color: black;
+}
+.submitbtn{
+  background-color: black;
+  color: white;
+}
+/* footer */
+.divone{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 /* CSS */
 .button-89 {
   --b: 3px;   /* border thickness */

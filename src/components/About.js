@@ -12,7 +12,7 @@ function About() {
     <div>
     <div className='halo'>
       <h5 className='mt-5 text-center'>About Me</h5>
-      <h1 className='text-center'>introduction and skills</h1>
+      <h1 className='text-center'>introduction and Expertise</h1>
       <Container>
       <Row>
         <Col className='div1'>1 of 2kkkkkkkkkkkk</Col>
