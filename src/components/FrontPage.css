@@ -1,17 +1,65 @@
-.main1{
+/* .main1{
     margin-top: 11%;   
     height: 67.8vh; 
 }
-
+*/
 .lowericons{
   width:20%;
-   bottom:0px;
    display: flex;
    justify-content: space-around;
-   margin-top: 10%;
+} 
+.holatext {
+ margin-top: 15%;
 }
+.name{
+  font-weight: bold;
+  font-size: 60px;
+}
+.frontdiv{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 570px) {
+  .name {
+font-size: xx-large;
+  }
+  .holatext{
+    margin-top: 30%;
+  }
+  .lowericons{
+    width: 40%;
+    margin-top: 50%;
+  }
 
+  
+}
+@media screen and (max-width: 768px) {
+  .frontdiv{
+    display: grid;
+    justify-content: center;
+    /* border: solid red; */
+  }
+  .straightline{
+    color: rgb(41, 40, 40);
+  }
+}
+@media screen and (max-width: 538px) {
+  .frontdiv{
+    display: grid;
+  }
+  .straightline{
+    color: rgb(41, 40, 40);
+  }
+}
+@media screen and (max-width: 400px) {
 
+.front-endtext{
+font-size: small;
+}
+}
+.frontpagemain{
+  height: 94vh;
+}
 /* about */
 .buttondiv{
   width: 60%;
@@ -23,7 +71,7 @@
   font-weight: bold;
 }
 .button {
-  width: 65%;
+  width: 100%;
   height: 110%;
   text-align: center;
   /* text-decoration: none; */
@@ -31,6 +79,7 @@
   font-size: 18px;
   margin: 4px 2px;
   transition-duration: 1s;
+
 }
 .button5 {
   background-color: white;
@@ -47,29 +96,67 @@
   background-color: black;
   color: white;
   border: 2px solid #292929;
+  /* margin-top: 10%; */
+
 }
 
 .button1:hover {
   background-color: white;
   color: black;
 }
+@media screen and (max-width: 430px) {
+  .div2 {
+   width: 100%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .button {
+   width: 120%;
+  }
+  .button5{
+    margin-top: 10%;
+    height: 43px;
+  }
+}
+@media screen and (max-width: 291px) {
+  .button5{
+    height: 73px;
+  }
+}
+@media screen and (max-width: 451px) {
+  .lowergrid{
+    display: grid;
+  }
+  .profiletext1{
+    text-align: center;
+  }
+}
 /* Resume */
 .toptext{
   text-align: center;
-  width: 40%;
+  width: 80%;
 }
 .uperdiv{
   display: flex;
   justify-content: center;
 }
-.first{
+/* .first{
   border: solid red;
-}
-.second{
+} */
+/* .second{
   border: solid red;
-}
+} */
 .educationdiv{
   width: 70%;
+}
+@media screen and (max-width: 640px) {
+  .second {
+    display: flex;
+    justify-content: center;
+    /* border: solid black; */
+    width: 100%;
+  }
 }
 /* Contact */
 .submitbtn{
@@ -86,18 +173,29 @@
   background-color: black;
   color: white;
 }
+.headingtext{
+  font-family: 'Allerta Stencil', sans-serif;
+}
+.paragraphtext{
+  font-family: 'Rancho', cursive;
+}
 /* footer */
 .divone{
   display: flex;
   justify-content: space-around;
 }
-
+@media screen and (max-width: 500px) {
+ .footercontainer{
+  display: grid;
+  }
+}
+/*footer*/
 
 /* CSS */
 .button-89 {
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: #373B44;
+  --color: #e3e4e9;
   
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
